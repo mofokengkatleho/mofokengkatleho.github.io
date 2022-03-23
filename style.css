@@ -196,3 +196,15 @@ footer {
     grid-template-columns: auto;
   }
 }
+@media only screen and (max-width: 600px) {
+  .skills-container {
+    grid-template-columns: repeat(1, auto);
+  }
+  #nav ul {
+    grid-template-columns: auto;
+  }
+
+  .projects-box {
+    grid-template-columns: auto;
+  }
+}
